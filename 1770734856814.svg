@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ceramic-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F2F2F7;stop-opacity:1" />
+    </linearGradient>
+
+    <filter id="soft-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="256" fill="url(#ceramic-gradient)"/>
+
+  <path d="M256 130 L400 370 L330 370 L256 240 L182 370 L112 370 Z" 
+        fill="#86868b" 
+        stroke="#FFFFFF" 
+        stroke-width="4"
+        stroke-linejoin="round"
+        filter="url(#soft-shadow)" />
+</svg>
